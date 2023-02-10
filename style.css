@@ -67,3 +67,90 @@ li {
     border-radius: 8px;
     font-size: 20px;
 }
+.second {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    padding-bottom: 100px;
+}
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 3px solid dodgerblue;
+}
+.card {
+    width: 150px;
+    height: 150px;
+}
+
+.secondtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 80px;
+}
+
+.third {
+    height: 420px;
+    background: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 80px;
+}
+.box {
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    border-radius: 12px;
+}
+.fourthtext h3 {
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    font-size: 25px;
+    padding: 20px 70px;
+}
+.fourthtext p {
+    color: white;
+    margin-top: 0;
+    padding: 20px 70px;
+    padding-top: 0px;
+}
+.fourthtext {
+    flex: 2;
+}
+.box button {
+    background-color: dodgerblue;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.footer {
+    background: #808080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 40px;
+}
+
