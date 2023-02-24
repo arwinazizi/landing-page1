@@ -1,0 +1,19 @@
+body {
+    background-color:darkgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    width: 400px;
+    height: 250px;
+    background-color:dimgray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color:darkgrey;
+}

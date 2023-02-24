@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.area {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    position: relative;
+    bottom: 30px;
+}
+button {
+    position: relative;
+    top: 45px;
+    left: 35px;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
